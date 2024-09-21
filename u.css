@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(to right, #0d0d0d, #2a2a72); /* Fondo oscuro con un toque de azul */
+    color: #f0f0f0; /* Texto claro para contraste */
+    font-family: 'Roboto', sans-serif; /* Fuente moderna */
+}
+
+nav {
+    background-color: #2a2a72; /* Azul eléctrico */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 4px solid #f73487; /* Línea rosa brillante para un toque Monster High */
+}
+
+nav ul.menu li a {
+    color: #f0f0f0; /* Texto claro */
+    background-color: #2a2a72; /* Azul oscuro */
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav ul.menu li a:hover {
+    background-color: #f73487; /* Rosa brillante en hover */
+    color: #000; /* Contraste oscuro */
+}
+
+nav ul.menu li a.active {
+    background-color: #f73487; /* Enlace activo en rosa */
+}
+
+footer {
+    background-color: #2a2a72; /* Azul oscuro */
+    color: #f0f0f0; /* Texto claro */
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #f73487; /* Título en rosa brillante */
+    font-size: 26px;
+    font-family: 'Creepster', cursive; /* Fuente estilo Monster High */
+    text-transform: uppercase; /* Letras en mayúsculas para un toque dramático */
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semi-transparente */
+    color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Sombra ligera */
+}
+
+.btnPokemon {
+    background-color: #f73487; /* Rosa brillante */
+    border: 2px solid #000000; /* Borde negro */
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle relieve */
+}
+
+.btnPokemon:hover {
+    background-color: #d42676; /* Rosa más oscuro en hover */
+    border-color: #fff; /* Borde blanco en hover */
+}
+
+.btnTipo {
+    background-color: #000000; /* Negro intenso */
+    border: 2px solid #f73487; /* Borde en rosa brillante */
+    color: #f73487; /* Texto rosa brillante */
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle efecto tridimensional */
+}
+
+.btnTipo:hover {
+    background-color: #1a1a1a; /* Negro más oscuro en hover */
+    border-color: #fff; /* Borde blanco en hover */
+}
+
+.card {
+    background-color: #1a1a1a; /* Fondo negro */
+    color: #f0f0f0; /* Texto claro */
+    border: 1px solid #f73487; /* Borde rosa */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle relieve */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto de agrandarse al pasar el cursor */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* Sombra más profunda en hover */
+}
+
+.form-label {
+    color: #f0f0f0; /* Texto claro */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#titulo {
+    color: #f73487; /* Rosa brillante */
+    font-weight: bold;
+    font-family: 'Creepster', cursive; /* Estilo Monster High */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para hacer el texto más dinámico */
+}
+
